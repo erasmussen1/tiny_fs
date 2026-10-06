@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+#
+
+systemctl stop fib.service
+systemctl disable fib.service
+
+exit 0

@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+#
+
+echo "Running ldconfig"
+ldconfig
+
+systemctl enable fib.service
+
+# Not sure if this is needed
+# systemctl daemon-reload
+
+exit 0
